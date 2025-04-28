@@ -1,0 +1,70 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo do site -->
+  <rect width="400" height="300" fill="#0f1b3a" />
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1b3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3a8f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#grad)" />
+  
+  <!-- Header -->
+  <text x="20" y="30" font-family="Arial" font-size="16" fill="white">&lt; Igor <tspan fill="#4e9bff">Cortez</tspan> /&gt;</text>
+  <line x1="20" y1="40" x2="380" y2="40" stroke="rgba(255,255,255,0.1)" />
+  
+  <!-- Menu -->
+  <text x="300" y="25" font-family="Arial" font-size="10" fill="white">Home</text>
+  <text x="330" y="25" font-family="Arial" font-size="10" fill="white">Sobre</text>
+  <text x="360" y="25" font-family="Arial" font-size="10" fill="white">Projetos</text>
+  
+  <!-- Conteúdo principal -->
+  <rect x="20" y="60" width="360" height="120" rx="5" fill="rgba(255,255,255,0.05)" />
+  
+  <!-- Texto de apresentação -->
+  <text x="40" y="90" font-family="Arial" font-size="14" fill="white">Olá, eu sou o <tspan fill="#4e9bff">[Igor]</tspan>.</text>
+  <text x="40" y="110" font-family="Arial" font-size="12" fill="white">Um desenvolvedor Front-end | Back-end</text>
+  <text x="40" y="130" font-family="Arial" font-size="10" fill="#ccc">São Paulo, Brasil</text>
+  
+  <!-- Botões -->
+  <rect x="40" y="145" width="70" height="25" rx="5" fill="#4e9bff" />
+  <text x="55" y="161" font-family="Arial" font-size="10" fill="white">LinkedIn</text>
+  
+  <rect x="120" y="145" width="70" height="25" rx="5" fill="#333" />
+  <text x="140" y="161" font-family="Arial" font-size="10" fill="white">GitHub</text>
+  
+  <!-- Terminal de código -->
+  <rect x="220" y="70" width="140" height="100" rx="5" fill="rgba(0,0,0,0.3)" />
+  
+  <!-- Dots do terminal -->
+  <circle cx="230" cy="80" r="3" fill="#ff5f56" />
+  <circle cx="240" cy="80" r="3" fill="#ffbd2e" />
+  <circle cx="250" cy="80" r="3" fill="#27c93f" />
+  
+  <!-- Código -->
+  <text x="230" y="100" font-family="monospace" font-size="8" fill="#4e9bff">&lt;div&gt;</text>
+  <text x="230" y="110" font-family="monospace" font-size="8" fill="#f06292">  &lt;h1&gt;Hello&lt;/h1&gt;</text>
+  <text x="230" y="120" font-family="monospace" font-size="8" fill="#f06292">  &lt;p&gt;Bem-vindo&lt;/p&gt;</text>
+  <text x="230" y="130" font-family="monospace" font-size="8" fill="#f06292">  &lt;button&gt;Contato&lt;/button&gt;</text>
+  <text x="230" y="140" font-family="monospace" font-size="8" fill="#4e9bff">&lt;/div&gt;</text>
+  
+  <!-- Seção de habilidades -->
+  <rect x="20" y="200" width="360" height="80" rx="5" fill="rgba(255,255,255,0.05)" />
+  <text x="40" y="220" font-family="Arial" font-size="14" fill="white">Habilidades</text>
+  
+  <!-- Skills -->
+  <rect x="40" y="235" width="50" height="25" rx="12" fill="rgba(78, 155, 255, 0.2)" stroke="rgba(78, 155, 255, 0.5)" />
+  <text x="50" y="251" font-family="Arial" font-size="10" fill="white">HTML</text>
+  
+  <rect x="100" y="235" width="50" height="25" rx="12" fill="rgba(78, 155, 255, 0.2)" stroke="rgba(78, 155, 255, 0.5)" />
+  <text x="115" y="251" font-family="Arial" font-size="10" fill="white">CSS</text>
+  
+  <rect x="160" y="235" width="70" height="25" rx="12" fill="rgba(78, 155, 255, 0.2)" stroke="rgba(78, 155, 255, 0.5)" />
+  <text x="170" y="251" font-family="Arial" font-size="10" fill="white">JavaScript</text>
+  
+  <rect x="240" y="235" width="50" height="25" rx="12" fill="rgba(78, 155, 255, 0.2)" stroke="rgba(78, 155, 255, 0.5)" />
+  <text x="250" y="251" font-family="Arial" font-size="10" fill="white">React</text>
+  
+  <rect x="300" y="235" width="60" height="25" rx="12" fill="rgba(78, 155, 255, 0.2)" stroke="rgba(78, 155, 255, 0.5)" />
+  <text x="310" y="251" font-family="Arial" font-size="10" fill="white">Node.js</text>
+</svg>

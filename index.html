@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Lucas Clelio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f1b3a 0%, #1a3a8f 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .header {
+            background: transparent;
+            color: #fff;
+            padding: 30px 0 10px 0;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2rem;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .nav a:hover {
+            color: #4e9bff;
+        }
+        main {
+            margin-top: 30px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+            padding: 30px 0;
+            backdrop-filter: blur(5px);
+        }
+        .destaque {
+            color: #4e9bff;
+            font-weight: bold;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 0;
+            margin: 20px 0 0 0;
+            list-style: none;
+        }
+        .skills-list li {
+            background: rgba(78, 155, 255, 0.2);
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            border: 1px solid rgba(78, 155, 255, 0.5);
+        }
+        .projetos-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .projeto-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+            padding: 18px;
+            flex: 1 1 220px;
+            min-width: 220px;
+            max-width: 300px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .projeto-item img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            font-size: 1rem;
+            margin-top: 40px;
+        }
+        @media (max-width: 900px) {
+            .container {
+                max-width: 98vw;
+                padding: 0 10px;
+            }
+            .projetos-list {
+                gap: 18px;
+            }
+        }
+        @media (max-width: 600px) {
+            .header, .footer {
+                padding: 18px 0 8px 0;
+            }
+            .header h1 {
+                font-size: 1.4rem;
+            }
+            .nav ul {
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+            }
+            main {
+                margin-top: 18px;
+            }
+            section {
+                padding: 18px 0;
+            }
+            .skills-list {
+                gap: 8px;
+            }
+            .projetos-list {
+                flex-direction: column;
+                gap: 14px;
+            }
+            .projeto-item {
+                max-width: 100%;
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>&lt; Lucas <span style="color: #4e9bff;">Clelio</span> /&gt;</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="container" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;" class="animate-fade-in">
+                    <h2>Olá, eu sou o <span class="destaque">Lucas</span>.</h2>
+                    <p style="font-size: 1.5rem; margin: 15px 0;">Um desenvolvedor <strong>Back-end.</strong>
+                    <p>Goiânia, Brasil</p>
+                    <div class="social-links">
+                        <a href="#" class="btn-glow" style="background: #4e9bff; color: white; text-decoration: none; padding: 8px 20px; border-radius: 5px; display: inline-block;">LinkedIn</a>
+                        <a href="#" class="btn-glow" style="background: #333; color: white; text-decoration: none; padding: 8px 20px; border-radius: 5px; display: inline-block;">GitHub</a>
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px; margin-top: 20px;" class="code-terminal float">                    
+                    <div class="terminal-header">
+                        <div class="terminal-dot"></div>
+                        <div class="terminal-dot"></div>
+                        <div class="terminal-dot"></div>
+                    </div>
+                    <pre style="margin: 0; color: #ccc; font-family: 'Consolas', monospace; font-size: 0.9rem; line-height: 1.5; overflow: auto;" class="typing-effect">
+<span style="color: #4e9bff;">&lt;div&gt;</span>
+  <span style="color: #f06292;">&lt;h1&gt;</span>Hello World<span style="color: #f06292;">&lt;/h1&gt;</span>
+  <span style="color: #f06292;">&lt;p&gt;</span>
+    Olá, seja bem-vindo ao meu site.
+    Eu sou desenvolvedor e adoro criar
+    coisas para web.
+  <span style="color: #f06292;">&lt;/p&gt;</span>
+  <span style="color: #f06292;">&lt;button&gt;</span>Contato<span style="color: #f06292;">&lt;/button&gt;</span>
+<span style="color: #4e9bff;">&lt;/div&gt;</span>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>SOBRE MIM</h2>
+                <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: center;">
+                    <div style="flex: 0 0 200px;">
+                        <img src="profile.jpg" alt="Foto de Igor Cortez" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); object-fit: cover; height: 200px;">
+                        <p style="text-align: center; margin-top: 10px;"><strong>Goiânia, Goiás</strong></p>
+                    </div>
+                    <div style="flex: 1; min-width: 300px;">
+                        <p>Olá, me chamo Lucas Clelio e sou apaixonado por tecnologia desde os meus 17 anos de idade, quando tive meu primeiro contato com as linguagem de desenvolvimento C. Dessa forma comecei a programar e aprender mais sobre este maravilhoso mundo.</p>
+                        <p style="margin-top: 15px;">Atualmente estou focado no desenvolvimento Back-end, buscando mais conhecimento sobre a área, afim de me melhorar como profissional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="habilidades" class="habilidades">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <ul class="skills-list">
+                    <li>C</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projetos" class="projetos">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="projetos-list">
+                    <div class="projeto-item">
+                        <img src="screenshot-portfolio.png" alt="Screenshot do portfólio">
+                        <h3>Meu Portfólio</h3>
+                        <p>Primeiro projeto do meu portfólio.</p>
+                    </div>
+                    <!-- Adicione mais projetos aqui -->
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Meus contatos: <a href="mailto:lucasclelio58@gmail.com">lucasclelio58@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Lucas Clelio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
