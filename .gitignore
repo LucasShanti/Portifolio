@@ -4,6 +4,9 @@ Thumbs.db
 
 # Dependências
 node_modules/
+profile.jpg
+profile.svg
+screenshot-portfolio.svg
 
 # Arquivos de ambiente
 .env
